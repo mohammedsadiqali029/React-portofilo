@@ -1,0 +1,16 @@
+.heading h2{
+    margin-bottom:10px;
+    font-weight:700;
+}
+.work .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx{
+    width: 50%;
+    padding: 20px;
+}
+.work .content .workBx img{
+    min-width: 100%;
+}

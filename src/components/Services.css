@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.services{
+  background: #111;
+}
+.Heading
+{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Heading h2{
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.Heading p
+{
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+.cardImg{
+  max-width: 15vw;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  max-height: 30vh;
+  padding: 15px;
+  filter: brightness(0) invert(1);
+}
+.card
+{
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background: #222;
+  transition: 0.8s;
+}
+.card:hover{
+  background: #2196f3;
+}
+.cardBody{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+
+}
+.cardBody h4
+{
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 2em;
+}
+
+.cardBody p{
+  color: #fff;
+}
